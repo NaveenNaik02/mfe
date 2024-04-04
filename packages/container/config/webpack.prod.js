@@ -22,5 +22,3 @@ const prodConfig = {
 };
 
 module.exports = merge(commonConfig, prodConfig);
-
-//to test pipeline
