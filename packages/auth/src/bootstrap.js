@@ -11,6 +11,7 @@ const mount = (el, { onSignIn, onNavigate, defaultHistory, initialPath }) => {
       initialEntries: [initialPath],
     });
 
+  //to handle the navigation from auth to container
   if (onNavigate) {
     history.listen(onNavigate);
   }
