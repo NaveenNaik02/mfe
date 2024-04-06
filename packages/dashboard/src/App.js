@@ -7,7 +7,7 @@ import Dashboard from "./components/Dashboard";
 
 //to avoid class name collision between apps
 const generateClassName = createGenerateClassName({
-  productionPrefix: "au",
+  productionPrefix: "dash",
 });
 
 export default () => {
