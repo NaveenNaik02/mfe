@@ -30,6 +30,7 @@ export default () => {
       history.push("/dashboard");
     }
   });
+
   return (
     <Router history={history}>
       <StylesProvider generateClassName={generateClassName}>
