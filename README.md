@@ -7,7 +7,7 @@ Project which has the basic setup to learn micro-frontend with Webpack and Modul
 Install with npm
 
 ```bash
-  cd into each micro apps
+  cd into each micro app
   npm install
   npm run start
 ```
